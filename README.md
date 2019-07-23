@@ -8,5 +8,5 @@ For example
 
 ```python3 transcribe.py --input-dir=/tmp/my_dir/ --net=LSTM```
 
-transcribes all `.jpg` and `.png` files in `/tmp/my_dir` using neural network with recurrent layers (network stored in `lstm_net/`).
+transcribes all `.jpg` and `.png` files in `/tmp/my_dir/` using neural network with recurrent layers (network stored in `lstm_net/`).
 If you want to transcribe lines using netowrk without recurrent layers, use `--net=CONV` parameter instead.
